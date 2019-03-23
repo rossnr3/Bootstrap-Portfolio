@@ -1,0 +1,80 @@
+/*
+    Stylesheet for Bootstrap Portfolio
+    NOTE: This stylesheet is used in conjunction with Bootstrap 4.
+*/
+body {
+    background-color: lightgray;
+    box-sizing: border-box; 
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: dimgray;
+    line-height : 1.5;
+    /* The below is temporary for debugging */
+    /* border: 1px solid red; */
+}
+
+main {
+    max-width: 960px;
+    margin: 40px auto;
+    background-color: white;
+}
+
+.common-header {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.header-content {
+    width: 960px;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: aqua;
+}
+
+.common-footer {
+    position: relative;                     /* Added to fix footer */
+    background-color:steelblue;
+    width: 100%;
+    height: 60px;
+    margin: 20px 0 0 0;
+}
+/*
+.footer-content {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    background-color: dimgray;
+    text-align: center;
+}
+*/
+#name-box {
+    float: left;
+    background-color: steelblue;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 24px auto 0 0;
+}
+
+#link-box {
+    float: right;
+    margin: 34px 0 0 auto;
+    padding: 10px;
+    width: 75%;
+    text-align: right;
+}
+
+#copyright {
+    position: absolute;             /* Added to fix footer */
+    bottom: 0;                      /* Added to fix footer */
+    width: 100%;
+    height: 50px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: seashell;
+    background-color: dimgray;
+}

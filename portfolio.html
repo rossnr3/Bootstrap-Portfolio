@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- 
+    Portfolio using Bootstrap
+-->
+    <head>
+            
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <!-- Responsive Page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <title>Portfolio</title>
+
+        <!-- CSS reset -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+            crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous">
+        </script>
+
+        <!-- Portfolio CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+    </head>
+
+    <body>
+        <!-- 
+            Common Page Header and Navigation. For now it is copied into each
+            page. In the future, I think I would find a way to load it as part
+            of each page with JavaScript.
+        -->
+        <header class="common-header">
+            <!-- Used to align name box and link box with content -->
+            <div class="header-content">
+                <!-- Blue box containing name -->
+                <div id="name-box">
+                    John Cat
+                </div>
+                <!-- Horizontal links to other pages -->
+                <div id="link-box">
+                    <nav>
+                        <a href="index.html" title="About Me">About</a>
+                        <a href="#top" title="Portfolio">Portfolio</a>
+                        <a href="contact.html" title="Contact">Contact</a>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+
+        <!--
+            Page content
+        -->
+        <main>
+            <!-- Create Portfolio Row -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-left">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 my-sm-2">
+                        <img class="rounded" 
+                            src="assets/images/technics-q-c-640-480-1.jpg" 
+                            alt="Hangman"
+                            height="120px" width="150px">
+                    </div>
+                    <div class="col-sm-4 my-sm-2">
+                        <img class="rounded" 
+                            src="assets/images/technics-q-c-640-480-2.jpg" 
+                            alt="RPG Game"
+                            height="120px" width="150px">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 my-sm-2">
+                        <img class="rounded" 
+                            src="assets/images/technics-q-c-640-480-5.jpg" 
+                            alt="Trivia Game"
+                            height="120px" width="150px">
+                    </div>
+                    <div class="col-sm-4 my-sm-2">
+                        <img class="rounded" 
+                            src="assets/images/technics-q-c-640-480-7.jpg" 
+                            alt="Rutgers Info Widget"
+                            height="120px" width="150px">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 my-sm-2">
+                        <img class="rounded" 
+                            src="assets/images/technics-q-c-640-480-9.jpg" 
+                            alt="Rock Paper Scissors"
+                            height="120px" width="150px">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--
+            Common Page Footer.
+        -->
+        <footer class="common-footer">
+            <div class="footer-content">
+                <p id="copyright">
+                    Copyright &copy;
+                </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
